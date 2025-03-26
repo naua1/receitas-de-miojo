@@ -1,0 +1,91 @@
+html{
+    background-image: url('../img/fundoNav.svg');
+    background: no-repeat cover;
+}
+.links{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  justify-self: end;
+  margin: 2% 5% 0 0;
+  z-index: 2; 
+}
+    .retangulo {
+        
+        width: 50%;
+        height: 100%;
+        background-color: #C17F34;
+        transform: rotate(135deg); 
+        transform-origin: center; 
+        border-radius: 19px;
+        position: absolute; 
+        z-index: 1; 
+      }
+
+     .iamgem{
+        position: absolute; /* Posiciona em relação ao contêiner */
+        z-index: 2; /* Fica atrás */
+        max-height: 70%;
+        
+      }
+
+      .miojo-pricipal{
+        
+        margin: -5% 0 0 -5%;
+        position: absolute;
+        width: 40vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+        grid-column: 1/3;
+        grid-row: 1/2;
+      }
+.nav-miojo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  grid-row: 4/5;
+  grid-column: 1/3;
+    width: 100%;
+    height: 25vh;
+    margin-bottom: 5%;
+}
+    .miojo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+        height: 20%;
+        width: 25%;
+    }
+
+    .retangulo2 {
+        
+      width: 20%;
+      height: 20%;
+      background-color: #C17F34;
+      transform: rotate(225deg); 
+      transform-origin: center; 
+   
+      border-radius: 19px;
+      position: absolute; 
+      z-index: 1; 
+    }
+
+    body{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .paragrafos{
+      grid-column: 2/3;
+      grid-row: 1/4;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5%;
+      margin-right: 5%;
+      z-index: 1; 
+    }
